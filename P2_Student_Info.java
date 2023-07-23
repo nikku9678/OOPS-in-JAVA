@@ -15,6 +15,11 @@ class Student2{
     public String details(){
         return this.name+"\n"+this.rollno+"\n"+this.branch;
     }
+
+    // It also provide the details of the student
+    public String toString(){
+        return this.name+"\n"+this.rollno+"\n"+this.branch;
+    }
 }
 public class P2_Student_Info {
     public static void main(String[] args){
@@ -29,6 +34,7 @@ public class P2_Student_Info {
         System.out.println("Total Marks: "+s.total());
         System.out.println("Average Marks: "+s.average());
         System.out.println("Details: "+s.details());
+        System.out.println("Details: "+s);
 
     }
 }

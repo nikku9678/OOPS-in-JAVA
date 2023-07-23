@@ -1,6 +1,5 @@
 import java.util.*;
 
-
 class Pen{
     String color;
     String type;
@@ -25,6 +24,10 @@ class Student{
         System.out.println(this.name);
         System.out.println(this.age);
         System.out.println(this.rollno);
+    }
+
+    Student(){
+        System.out.println("constructors called");
     }
 }
 public class Basic{
